@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MSS Climatização e Refrigeração | Especialistas em HVAC</title>
-    <meta name="description" content="Profissionais capacitados em climatização industrial e refrigeração. Orçamento rápido via WhatsApp.">
+    <meta name="description"
+        content="Profissionais capacitados em climatização industrial e refrigeração. Orçamento rápido via WhatsApp.">
     <meta property="og:title" content="MSS Climatização e Refrigeração">
     <meta property="og:description" content="Especialistas em climatização industrial">
     <meta property="og:type" content="website">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
         :root {
@@ -48,9 +52,17 @@
         }
 
         @keyframes gradientShift {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
         }
 
         /* Snowflakes Canvas */
@@ -85,6 +97,7 @@
                 opacity: 0;
                 transform: translateY(30px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -105,8 +118,15 @@
         }
 
         @keyframes floating {
-            0%, 100% { transform: translateY(0px); }
-            50% { transform: translateY(-20px); }
+
+            0%,
+            100% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-20px);
+            }
         }
 
         .logo-container img {
@@ -144,8 +164,13 @@
         }
 
         @keyframes rotate {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
         }
 
         /* Services Section */
@@ -155,8 +180,13 @@
         }
 
         @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
         }
 
         .services h2 {
@@ -303,8 +333,15 @@
         }
 
         @keyframes pulse {
-            0%, 100% { transform: scale(1); }
-            50% { transform: scale(1.1); }
+
+            0%,
+            100% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.1);
+            }
         }
 
         .btn-email {
@@ -396,6 +433,7 @@
         }
     </style>
 </head>
+
 <body>
     <canvas id="snowflakes"></canvas>
 
@@ -403,7 +441,7 @@
         <!-- Hero Section -->
         <section class="hero">
             <div class="logo-container">
-                <img src="/logo_mss_fundo_branco.png" alt="MSS Climatização e Refrigeração Logo">
+                <img src="/logo_mss_sem_fundo.png" alt="MSS Climatização e Refrigeração Logo">
             </div>
             <h1>MSS Climatização e Refrigeração</h1>
             <p>Profissionais Capacitados Especialistas em Climatização</p>
@@ -436,9 +474,10 @@
             <div class="cta">
                 <h2>Entre em Contato Agora</h2>
                 <p>Solicite um orçamento sem compromisso</p>
-                
+
                 <div class="cta-buttons">
-                    <a href="https://wa.me/5521990930825" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+                    <a href="https://wa.me/5521990930825" class="btn btn-whatsapp" target="_blank"
+                        rel="noopener noreferrer">
                         <i class="fab fa-whatsapp"></i>
                         Falar no WhatsApp
                     </a>
@@ -465,7 +504,7 @@
     <!-- Footer -->
     <footer>
         <div class="footer-logo-container">
-            <img src="/logo_mss_fundo_branco.png" alt="MSS Logo">
+            <img src="/logo_mss_sem_fundo.png" alt="MSS Logo">
         </div>
         <p>&copy; 2025 MSS Climatização e Refrigeração. Todos os direitos reservados.</p>
     </footer>
@@ -474,7 +513,7 @@
         // Snowflakes Animation
         const canvas = document.getElementById('snowflakes');
         const ctx = canvas.getContext('2d');
-        
+
         canvas.width = window.innerWidth;
         canvas.height = window.innerHeight;
 
@@ -561,4 +600,5 @@
         });
     </script>
 </body>
+
 </html>
